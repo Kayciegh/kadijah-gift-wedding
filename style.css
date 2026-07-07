@@ -611,34 +611,56 @@ body{
 
 .cover{
 
-    padding:35px;
+    padding:50px 22px 28px;
 
 }
 
 .cover h1{
 
-    font-size:52px;
+    font-size:42px;
 
 }
 
 .and{
 
-    font-size:56px;
+    font-size:46px;
 
 }
 
 .cover-quote{
 
-    font-size:21px;
+    font-size:18px;
+    line-height:1.7;
 
 }
 
 .page{
 
-    padding:38px 26px;
+    width:100%;
+    max-width:100%;
+    padding:22px 14px;
+    boarder-radius:14px;
 
 }
+.page p{
 
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+.detail{
+
+    max-width:100%;
+
+}
+.gold-button{
+
+    width:100%;
+
+    text-align:center;
+
+}
 .page h2{
 
     font-size:42px;
