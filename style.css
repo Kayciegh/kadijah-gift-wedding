@@ -639,7 +639,7 @@ body{
     width:100%;
     max-width:100%;
     padding:22px 14px;
-    boarder-radius:14px;
+    border-radius:14px;
 
 }
 .page p{
@@ -807,4 +807,59 @@ body{
 
     transform:translateX(0);
 
+}
+
+/* FINAL MOBILE FIX */
+
+@media(max-width:600px){
+
+    .book{
+        width:98vw;
+        height:94vh;
+        min-height:unset;
+    }
+
+    .cover{
+        padding:50px 22px 28px;
+    }
+
+    .cover h1{
+        font-size:34px;
+        line-height:1.2;
+    }
+
+    .cover-small{
+        font-size:24px;
+    }
+
+    .cover-quote{
+        font-size:16px;
+        line-height:1.7;
+        margin-bottom:24px;
+    }
+
+    .cover-date{
+        margin-top:22px;
+    }
+
+    .page{
+        width:100%;
+        max-width:100%;
+        padding:22px 14px;
+        border-radius:14px;
+    }
+
+    .page p{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .detail{
+        max-width:100%;
+    }
+
+    .gold-button{
+        width:100%;
+        text-align:center;
+    }
 }
