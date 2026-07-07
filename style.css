@@ -863,3 +863,32 @@ body{
         text-align:center;
     }
 }
+/* FINAL MOBILE WIDTH FIX */
+
+@media(max-width:600px){
+
+    .invite-page{
+        padding:34px 18px 105px;
+    }
+
+    .page{
+        width:100%;
+        max-width:none;
+        padding:26px 20px;
+    }
+
+    .detail{
+        width:100%;
+        max-width:none;
+        padding:24px 18px;
+    }
+
+    .detail p{
+        font-size:17px;
+        line-height:1.6;
+    }
+
+    .page h2{
+        font-size:40px;
+    }
+}
